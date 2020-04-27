@@ -220,5 +220,5 @@
         "DotJoshJohnson.xml"
     ],
     "appPort": 3000,
-    "image": "mcr.microsoft.com/oryx/build:latest"
+    //"image": "mcr.microsoft.com/oryx/build:latest"
 }
