@@ -217,5 +217,6 @@
         "pflannery.vscode-versionlens",
         "redhat.vscode-yaml",
         "DotJoshJohnson.xml"
-    ]
+    ],
+    "image": "Oryx"
 }
