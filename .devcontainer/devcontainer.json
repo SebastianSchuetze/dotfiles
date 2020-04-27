@@ -1,5 +1,6 @@
 {
-    "settings": {
+    "name": "PowerShell Development",
+   /* "settings": {
 
         "csv-preview.separator": ";",
         "git.enableSmartCommit": true,
@@ -149,7 +150,7 @@
         ],
         "workbench.settings.editor": "json"
 
-    },
+    },*/
     // had an extension for snycing extensions and joined them from that settings file with ps and jq:
     // (get-content .\extensions.json -raw | jq .[].metadata.publisherId) -join ",`n". Extension is: Shan.code-settings-sync
     "extensions": [
@@ -218,5 +219,6 @@
         "redhat.vscode-yaml",
         "DotJoshJohnson.xml"
     ],
+    "appPort": 3000,
     "image": "Oryx"
 }
